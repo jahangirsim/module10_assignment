@@ -13,7 +13,7 @@ class Module10AssignmentScreen extends StatelessWidget {
         centerTitle: false,
         title: const Text(
           "My Profile",
-          style: TextStyle(fontSize: 16),
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
         actions: const [
           Icon(Icons.add),
