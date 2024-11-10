@@ -7,6 +7,7 @@ class Module10Assignment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Module10AssignmentScreen(),
     );
   }

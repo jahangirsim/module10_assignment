@@ -6,7 +6,9 @@ class Module10AssignmentScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
+
         backgroundColor: Colors.yellow,
         centerTitle: false,
         title: const Text(
@@ -15,8 +17,11 @@ class Module10AssignmentScreen extends StatelessWidget {
         ),
         actions: const [
           Icon(Icons.add),
+          SizedBox(width: 16,),
           Icon(Icons.settings),
+          SizedBox(width: 16,),
           Icon(Icons.call),
+          SizedBox(width: 16,),
         ],
       ),
       body: SingleChildScrollView(
